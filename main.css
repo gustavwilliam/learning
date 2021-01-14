@@ -1,7 +1,19 @@
 :root {
-  --gutters: 50px;
+  --gutters: 200px;
 }
 
 body {
   margin: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  :root {
+    --gutters: 100px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --gutters: 20px;
+  }
 }
