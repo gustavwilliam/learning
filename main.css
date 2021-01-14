@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
   --gutters: 200px;
+
+  --color-base: #FEFFFE;
+  --color-inverse: #2C363F;
+  --color-primary: #05A8AA;
+  --color-secondary: #F8C630;
+  --color-third: #F96E46;
 }
 
 body {
