@@ -1,6 +1,6 @@
 .topnav {
    overflow: hidden;
-   background-color: #2C363F;
+   background-color: var(--color-inverse);
    padding: 0 var(--gutters);
 }
 
@@ -23,19 +23,19 @@
 .nav-menu li a {
   text-decoration: none;
   display: block;
-  color: #FEFFFE;
+  color: var(--color-base);
   padding: 8px 15px;
   border-radius: 5px;
 }
 
 .nav-menu li a:hover {
-  color: #FEFFFE;
-  background-color: #47515a;
+  color: var(--color-base);
+  background-color: var(--color-inverse-light);
 }
 
 .nav-menu li a.nav-active {
-  color: #2C363F;
-  background-color: #FEFFFE;
+  color: var(--color-inverse);
+  background-color: var(--color-base);
 }
 
 .nav-menu li.nav-hamburger {

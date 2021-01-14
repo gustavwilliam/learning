@@ -4,6 +4,7 @@
 
   --color-base: #FEFFFE;
   --color-inverse: #2C363F;
+  --color-inverse-light: #47515a;
   --color-primary: #05A8AA;
   --color-secondary: #F8C630;
   --color-third: #F96E46;
@@ -11,7 +12,7 @@
 
 body {
   margin: 0;
-  background-color: #FEFFFE;
+  background-color: var(--color-base);
 }
 
 * {
