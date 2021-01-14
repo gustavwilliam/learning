@@ -1,9 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 :root {
   --gutters: 200px;
 }
 
 body {
   margin: 0;
+  background-color: #FEFFFE;
+}
+
+* {
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media screen and (max-width: 1200px) {
