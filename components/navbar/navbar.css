@@ -3,18 +3,18 @@
    background-color: #333;
 }
 
-.topnav ul {
+.nav-menu {
   padding: 0;
   margin: 0;
 }
 
-.topnav ul li {
+.nav-menu li {
   display: inline-block;
   text-align: center;
   height: 100%;
 }
 
-.topnav ul li a {
+.nav-menu li a {
   text-decoration: none;
   display: block;
   font-size: 17px;
@@ -22,17 +22,17 @@
   padding: 14px 16px;
 }
 
-.topnav ul li a.nav-active {
+.nav-menu li a.nav-active {
   background-color: #4CAF50;
   color: white;
 }
 
-.topnav ul li a:hover {
+.nav-menu li a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav ul li.nav-hamburger {
+.nav-menu li.nav-hamburger {
   float: right;
 }
 
