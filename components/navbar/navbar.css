@@ -18,7 +18,6 @@
 .nav-menu li a {
   text-decoration: none;
   display: block;
-  font-size: 17px;
   color: #f2f2f2;
   padding: 14px 16px;
 }
@@ -35,6 +34,12 @@
 
 .nav-menu li.nav-hamburger {
   float: right;
+  display: none;
+  vertical-align: center;
+}
+
+.nav-menu li.nav-hamburger a svg {
+  vertical-align: top;
 }
 
 @media screen and (max-width: 600px) {
