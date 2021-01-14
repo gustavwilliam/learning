@@ -1,3 +1,7 @@
 :root {
   --gutters: 200px;
 }
+
+body {
+  margin: 0;
+}
