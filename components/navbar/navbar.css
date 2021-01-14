@@ -38,5 +38,21 @@
 }
 
 @media screen and (max-width: 600px) {
+  .nav-menu li:not(:first-child) {
+    display: none;
+    align-items: center;
+  }
 
+  .nav-menu li.nav-hamburger {
+    display: inline-block;
+  }
+
+  .topnav.responsive {
+    padding: 10px var(--gutters);
+  }
+
+  .topnav.responsive div ul li {
+    display: block;
+    float: none;
+  }
 }

@@ -1,3 +1,8 @@
 function navHamburgerClicked() {
-  console.log("Test")
+  var navbar = document.getElementById("topnav");
+  if (navbar.className === "topnav") {
+    navbar.className += " responsive";
+  } else {
+    navbar.className = "topnav";
+  }
 }
