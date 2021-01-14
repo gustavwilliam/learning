@@ -1,5 +1,6 @@
+const navbar = document.getElementById("topnav");
+
 function navHamburgerClicked() {
-  var navbar = document.getElementById("topnav");
   if (navbar.className === "topnav") {
     navbar.className += " responsive";
   } else {
